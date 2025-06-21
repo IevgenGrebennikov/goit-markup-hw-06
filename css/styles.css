@@ -252,6 +252,7 @@ color: #2E2F42;
   border-radius: 4px;
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
+  display: none; /*добавили для моб*/
 }
 .qualities-list {
   display: flex;
