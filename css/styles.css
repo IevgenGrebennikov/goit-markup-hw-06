@@ -249,7 +249,7 @@ color: #2E2F42;
 
 @media screen and (min-width: 768px){
   .container {max-width: 768px;}
-  .qualities-item{width: calc((100% - 24px) / 2);}
+  .qualities-item{width: calc((100% - 72px) / 2);}
   .qualities-list {
     gap: 24px;}
   
