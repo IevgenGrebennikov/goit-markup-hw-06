@@ -51,10 +51,7 @@ body {
   display: flex;
 }
 .container {
-  /* width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;*/
-  max-width: 1158px;
+  max-width: 320px;
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
@@ -258,12 +255,15 @@ color: #2E2F42;
 }
 .qualities-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;  /*добавили для моб*/
+  /*gap: 24px;*/
+  gap: 72px;
 }
+/*
 .qualities-item {
   width: calc((100% - 72px) / 4);
 }
-
+*/
 /* команда */
 .team {
   background-color: #f4f4fd;
