@@ -731,9 +731,13 @@ color: #2E2F42;
 /* медиа  */
 
 @media screen and (min-width: 768px){
-  .container {max-width: 768px;}
-  .qualities-item{width: calc((100% - 24px) / 2);}
+  .container {
+    max-width: 768px;
+    background-color: #31d0aa;
+  }
+  
   .qualities-list {
     gap: 24px;}
+    .qualities-item{width: calc((100% - 24px) / 2);}
   
 }
