@@ -737,7 +737,10 @@ color: #2E2F42;
   }
   
   .qualities-list {
-    gap: 24px;}
+    width: calc((100% - 24px) / 2);}
+    .team-title {
+   margin-bottom: 64px;
+}
     .qualities-item{
       width: calc((100% - 24px) / 2);}
   .team-list {
