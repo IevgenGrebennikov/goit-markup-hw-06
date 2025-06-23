@@ -728,16 +728,40 @@ color: #2E2F42;
 .footer-subscribe-conteiner{
   margin-left: 80px;
 }
-/* медиа  */
-
+/* медиа для мобилок */
+/* секция  qualities*/
 @media screen and (min-width: 768px){
   .container {
     max-width: 768px;
-    background-color: #31d0aa;
   }
   
   .qualities-list {
     gap: 24px;}
-    .qualities-item{width: calc((100% - 24px) / 2);}
+    .qualities-item{
+      width: calc((100% - 24px) / 2);}
+  
+}
+/* медиа для планшетов */
+@media screen and (min-width: 1128px){
+  .container {
+    max-width: 1128px;
+  }
+  .conteiner-qualities-icon {
+ 
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+  
+}
+  
+  .qualities-list {
+    gap: 24px;}
+    .qualities-item{
+      width: calc((100% - 72px) / 4);}
   
 }
