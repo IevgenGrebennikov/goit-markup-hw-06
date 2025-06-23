@@ -737,16 +737,18 @@ color: #2E2F42;
     max-width: 768px;
   }
   .qualities-item{
-      width: calc((100% - 72px) / 2);}
+      width: calc((100% - 24px) / 2);}
   .qualities-list {
-gap: 72px;
+row-gap: 72px;
+  column-gap: 24px;
   }
     
     
-    
+.team-item{width: calc((100% - 24px) / 2);}}    
 .team-list {
   display: flex;
-  gap: 24px;
+ row-gap: 72px;
+  column-gap: 24px;
 }
 .team-title {
    margin-bottom: 64px;
