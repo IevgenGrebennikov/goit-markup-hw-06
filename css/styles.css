@@ -262,7 +262,7 @@ color: #2E2F42;
   display: flex;
   flex-wrap: wrap;  /*добавили для моб*/
   /*gap: 24px;*/
-  gap: 72px;
+  row-gap: 72px;
 }
 
 .qualities-item {
@@ -287,8 +287,9 @@ color: #2E2F42;
 }
 .team-list {
   display: flex;
-  gap: 24px;
+  
    flex-wrap: wrap;  /*добавили для моб*/
+   row-gap: 72px;
 }
 .team-item {
   background-color: #ffffff;
