@@ -288,6 +288,7 @@ color: #2E2F42;
 .team-list {
   display: flex;
   gap: 24px;
+   flex-wrap: wrap;  /*добавили для моб*/
 }
 .team-item {
   background-color: #ffffff;
@@ -738,7 +739,11 @@ color: #2E2F42;
     gap: 24px;}
     .qualities-item{
       width: calc((100% - 24px) / 2);}
-  
+  .team-list {
+  display: flex;
+
+  gap: 24px;
+}
 }
 
 @media screen and (min-width: 1128px){
