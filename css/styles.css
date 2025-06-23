@@ -735,8 +735,7 @@ color: #2E2F42;
 
 @media screen and (min-width: 768px){
   .container {
-    max-width: 768px;
-  }
+    max-width: 768px; }
   .qualities-item{
       width: calc((100% - 24px) / 2);}
   .qualities-list {
@@ -745,7 +744,7 @@ row-gap: 72px;
   }
     
     
-.team-item{width: calc((100% - 24px) / 2);}}    
+.team-item{width: calc((100% - 24px) / 2);}  
 .team-list {
   display: flex;
  row-gap: 72px;
