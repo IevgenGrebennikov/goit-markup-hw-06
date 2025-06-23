@@ -755,6 +755,15 @@ row-gap: 72px;
     
 .team-item{width: calc((100% - 24px) / 2);}  
 
+
+.portfolio-list-item {
+  width: calc((100% - 24px) / 2);
+  }
+.portfolio-list {
+    row-gap: 72px;
+}
+
+
 }
 
 @media screen and (min-width: 1128px){
@@ -780,5 +789,9 @@ row-gap: 72px;
       width: calc((100% - 72px) / 4);}
       
   .team-item{width: calc((100% - 72px) / 4);}
+
+  .portfolio-list-item {
+  width: calc((100% - 48px) / 3);
+}
   
 }
