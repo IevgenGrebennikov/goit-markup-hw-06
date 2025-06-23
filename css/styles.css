@@ -12,7 +12,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 0 auto;
+ 
 }
 h1,
 h2,
@@ -735,6 +735,7 @@ color: #2E2F42;
 }
 
 @media screen and (min-width: 768px){
+  
   .container {
     max-width: 768px; }
   .qualities-item{
