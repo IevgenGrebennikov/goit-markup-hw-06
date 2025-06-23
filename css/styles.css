@@ -55,7 +55,7 @@ body {
   max-width: 320px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 16px; /*было 15*/
+  padding: 0 15px;
 }
 
 .header-container {
@@ -728,8 +728,7 @@ color: #2E2F42;
 .footer-subscribe-conteiner{
   margin-left: 80px;
 }
-/* медиа для мобилок */
-/* секция  qualities*/
+
 @media screen and (min-width: 768px){
   .container {
     max-width: 768px;
@@ -741,7 +740,7 @@ color: #2E2F42;
       width: calc((100% - 24px) / 2);}
   
 }
-/* медиа для планшетов */
+
 @media screen and (min-width: 1128px){
   .container {
     max-width: 1128px;
