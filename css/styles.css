@@ -9,9 +9,10 @@ body {
   overflow-x: hidden;
 }
 img {
-  display: flex;
+  display: block;
   max-width: 100%;
   height: auto;
+  margin: 0 auto;
 }
 h1,
 h2,
