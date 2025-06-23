@@ -245,15 +245,7 @@ color: #2E2F42;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* медиа  */
 
-@media screen and (min-width: 768px){
-  .container {max-width: 768px;}
-  .qualities-item{width: calc((100% - 24px) / 2);}
-  .qualities-list {
-    gap: 24px;}
-  
-}
 .conteiner-qualities-icon {
  /*убрал для моб 
  display: flex;
@@ -735,4 +727,13 @@ color: #2E2F42;
 }
 .footer-subscribe-conteiner{
   margin-left: 80px;
+}
+/* медиа  */
+
+@media screen and (min-width: 768px){
+  .container {max-width: 768px;}
+  .qualities-item{width: calc((100% - 24px) / 2);}
+  .qualities-list {
+    gap: 24px;}
+  
 }
